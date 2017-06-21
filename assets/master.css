@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_content {
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    /*background-color: black;*/
+}
+.top_content .top_logo a{
+    position: absolute;
+    width: 148px;
+    height: 72px;
+    background:url(http://i3.meishichina.com/static/lib/logo.png) no-repeat 20px;
+    background-size: 80%;
+}
+.nav_content{
+    width: 600px;
+    margin-left: 300px;
+}
+
+.nav_content a {
+    color: black;
+    position: relative;
+    padding: 0 13px 5px;
+    font-size: 20px;
+    line-height: 66px;
+}
+.nav_content a:hover {
+    text-decoration: none;
+    color: red;
+}
+.top_content .top_sign {
+    width: 35px;
+    margin-left: 900px;
+    margin-top: -63px;
+}
+.top_sign a:hover {
+    text-decoration: none;
+}
+.top_sign a{
+    display: block;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+.top_search {
+    margin-left: 1000px;
+    margin-top: -40px;
+}
+.btn-default {
+    background-color: #C0C0C0 !important;
+}
+.input-group {
+    width: 300px !important;
+}
+.Carouselfigure {
+    position: absolute;
+    margin: 72px 188px 0 188px;
+    height: 321.9px;
+    width: 990px;
+}
+.menucontent {
+    position: absolute;
+    margin: 72px 0 0 188px;
+    width: 230px;
+    height: 321.9px;
+    font-size: 18px;
+    color: white;
+    background: rgba(68, 68, 68, 0.4);
+}
+.glyphicon-chevron-left, .glyphicon-chevron-left, .carousel-indicators{
+    margin-left: 160px !important;
+    color: white;
+}
+.menucontent ul {
+    list-style-type: none;
+}
+.menucontent ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 19.8px 0;
+    color: white;
+}
+.menucontent ul i{
+    float: left;
+    width: 19px;
+    height: 23px;
+    margin-left: 40px;
+    margin-right: 18px;
+    background: url(../assets/img/icon.png) no-repeat scroll 0/auto 20px;
+}
+.menucontent ul .l1 i {
+    background-position: 0 0;
+}
+.menucontent ul .l2 i {
+    background-position: -20px 0;
+}
+.menucontent ul .l3 i {
+    background-position: -120px 0;
+}
+.menucontent ul .l4 i {
+    background-position: -60px 0;
+}
+.menucontent ul .l5 i {
+    background-position: -80px 0;
+}
+.menucontent ul b{
+    background: url(../assets/img/icon.png) no-repeat scroll 0/auto 20px;
+    background-position: -100px 0;
+    float: right;
+    width: 19px;
+    height: 23px;
+    margin-right: 28px;
+}
+/*.menucontent ul li .rightlist {
+    display: block !important;
+    width: 260px;
+    background-color: red;
+}*/
+.menucontent .rightlist {
+    display: none;
+    position: absolute;
+    width: 360px;
+    height: 321.9px;
+    top: 0;
+    left: 231px;
+    background-color: white;
+}
+.main-slide {
+    position: absolute;
+    margin: 405px 188px 0 188px;
+    width: 990px;
+}
+.ma-slide-content {
+    text-align: center;
+}
+.ma-slide-list h3 {
+    font-size: 20px;
+}
+.ma-slide-list p {
+    font-size: 12px;
+}
+.ma-slide-list {
+    display: none;
+    background-color: rgba(234, 230, 230, 0.73);
+}
+.ma-active {
+    display: inline-block;
+    width: 290px;
+}
+.ma-arraw-left {
+    width: 50px;
+    height: 100px;
+    float: left;
+    margin-top: -98px;
+    background-color: rgba(234, 230, 230, 0.73);
+}
+.ma-arraw-right {
+    width: 50px;
+    height: 100px;
+    float: right;
+    margin-top: -98px;
+    background-color: rgba(234, 230, 230, 0.73);
+}
+.ma-arraw-left span{
+    background: url(../assets/img/arrow.png) no-repeat scroll 0/auto 30px;
+    width: 17px;
+    height: 30px;
+    position: absolute;
+    margin: 30px 10px 30px 10px;
+}
+.ma-arraw-right span{
+    background: url(../assets/img/arrow.png) no-repeat scroll 0/auto 30px;
+    width: 17px;
+    height: 30px;
+    position: absolute;
+    margin: 30px 10px 30px 10px;
+}
+footer {
+    position: absolute;
+    margin-top: 600px;
+}
