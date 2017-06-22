@@ -191,9 +191,9 @@
     margin: 35px 0 0 25px;
 }
 .main2 {
-    background-color: gray;
+    /*background-color: gray;*/
     width: 990px;
-    height: 350px;
+    height: 410px;
     margin: 525px 0 0 188px;
     position: absolute;
 }
@@ -201,8 +201,26 @@
     float: left;
     width: 320px;
     height: 100%;
-    background-color: red;
+    /*background-color: red;*/
+    font-size: 20px;
 }
 .main2-center {
     margin: 0 15px 0 15px
+}
+.pmargin {
+    margin: 10px 0 6px 0;
+    color: #337ab7;
+}
+.main2-content hr {
+    margin: 0 0 10px 0;
+    border-width: 2px;
+}
+.main2-content-list {
+    margin-top:10px;
+}
+.main2-content-list li {
+    list-style-type: circle;
+    margin:5px 0 0 25px;
+    font-size: 16px;
+    line-height: 29px;
 }
