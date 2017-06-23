@@ -141,6 +141,7 @@
 .ma-slide-content {
     text-align: center;
     height: 110px;
+    overflow:hidden;
 }
 .ma-slide-list h3 {
     font-size: 20px;
@@ -148,18 +149,14 @@
 .ma-slide-list p {
     font-size: 12px;
 }
-@keyframes changetime {
-    from {display: inline-block;}
-    to {display: none;}
-}
 .ma-slide-list {
     display: none;
     background-color: rgba(234, 230, 230, 0.73);
 }
 .ma-active {
-    animation: changetime 1s;
     display: inline-block;
     width: 290px;
+    margin-left: 0;
 }
 .ma-arraw-left {
     width: 50px;
@@ -198,6 +195,7 @@
     position: absolute;
 }
 .main2-content {
+    color: black;
     float: left;
     width: 320px;
     height: 100%;
@@ -209,7 +207,6 @@
 }
 .pmargin {
     margin: 10px 0 6px 0;
-    color: #337ab7;
 }
 .main2-content hr {
     margin: 0 0 10px 0;
@@ -223,4 +220,42 @@
     margin:5px 0 0 25px;
     font-size: 16px;
     line-height: 29px;
+}
+.main2-content-list a {
+    color: black;
+}
+.main3 {
+    position: absolute;
+    margin: 940px 0 0 188px;
+    width: 990px;
+    height: 500px;
+}
+.main3-cook {
+    float: left;
+    width: 330px;
+    height: 500px;
+}
+.main3-picture {
+    width: 330px;
+    height: 500px;
+    float: left;
+    background-color: #d48892;
+}
+.main3-fb {
+    width: 330px;
+    height: 500px;
+    float: left;
+    background-color: #2f161a;
+}
+.main3-cook>p {
+    font-size: 28px;
+    margin: 10px 0 20px 0;
+}
+.main3-cook h4 {
+    font-size: 21px;
+    margin: 20px 0 40px 20px;
+}
+.main3-cook-author {
+    text-align: center;
+    font-size: 18px;
 }
