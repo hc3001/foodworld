@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Helvetica;
 }
 .top_content {
     height: 72px;
@@ -239,17 +240,19 @@
     width: 330px;
     height: 500px;
     float: left;
-    background-color: #d48892;
 }
 .main3-fb {
     width: 330px;
     height: 500px;
     float: left;
-    background-color: #2f161a;
 }
-.main3-cook>p {
+.main3-cook>p, .main3-title>p{
     font-size: 28px;
     margin: 10px 0 20px 0;
+}
+.main3-cook img {
+    border-radius: 50%;
+
 }
 .main3-cook h4 {
     font-size: 21px;
@@ -258,4 +261,45 @@
 .main3-cook-author {
     text-align: center;
     font-size: 18px;
+}
+.main3-picture-column li {
+    margin: 0 0 10px 10px;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+}
+.main3-picture-column img {
+    transition: transform .5s ease-in-out;
+}
+.main3-picture-column img:hover {
+    transform: scale(1.1,1.1);
+}
+.main3-1 ul {
+    list-style-type: none;
+    margin-top: 70px;
+}
+.main3-2 ul {
+    list-style-type: none;
+    position: absolute;
+    margin-top: -414px;
+    margin-left: 156px;
+}
+.main3-fb-line1 {
+    margin-top: 22px;
+}
+.fb-line1-title>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main3-fb-line a {
+    color: black;
+}
+.fb-line1-content {
+    font-size: 14px;
+    margin: 13px 0 14px 0;
+}
+.footer {
+    margin:1200px 0 0 188px;
+    background-color: black;
 }
